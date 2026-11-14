@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Paso 5 */
+.etiqueta {
+  padding: 3px 8px;
+  border-radius: 12px;
+  color: white;
+  font-size: 13px;
+}
+
+/* Paso 6: estados */
+.agotado { background-color: #f8d7da; }    
+.bajo-stock { background-color: #fff3cd; } 
+.disponible { background-color: #d4edda; } 
+
+/* Paso 7 */
+#resumen {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+/* Paso 8 */
+.destacado {
+  outline: 3px solid #0d6efd;
+}
+
+/* Paso 10*/
+.btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-menos { background-color: #dc3545; }
+.btn-mas { background-color: #28a745; }
+
+.btn:disabled {
+  background-color: #adb5bd;
+  cursor: not-allowed;
+}
+
+.numero {
+  display: inline-block;
+  min-width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
